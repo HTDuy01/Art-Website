@@ -1,0 +1,11 @@
+$(document).ready(function(){
+   $(window).scroll(function(){
+     if($(this).scrollTop()){
+        $("header").addClass("discoloration")
+        $("#container_header").addClass("discoloration2")
+     }else{
+        $("header").removeClass("discoloration")
+        $("#container_header").removeClass("discoloration2")
+     }
+   })
+});
